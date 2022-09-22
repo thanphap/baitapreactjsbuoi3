@@ -149,7 +149,7 @@ export default class ShoesShop extends Component {
         return (
             <div className='container pb-5'>
             <div className="row">
-                <div className="col-3 py-5">
+                <div className="col-3 d-flex align-items-center" style={{height: "500px"}}>
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <a className="nav-link active" href="#">Home</a>

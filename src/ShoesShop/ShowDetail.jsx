@@ -21,7 +21,7 @@ export default class ShowDetail extends Component {
                                 </div>
                                 <div className="col-8">
                                     <h4>Thông tin sản phẩm</h4>
-                                    <table className="table text-left">
+                                    <table className="table text-left ">
                                         <thead>
                                             <tr>
                                             </tr>
@@ -36,12 +36,12 @@ export default class ShowDetail extends Component {
                                                 <td>${detailShoes.price}</td>
                                             </tr>
                                             <tr>
-                                                <td>Mô tả</td>
-                                                <td>{detailShoes.description}</td>
+                                                <td className="align-middle">Mô tả</td>
+                                                <td className="align-middle">{detailShoes.description}</td>
                                             </tr>
                                             <tr>
-                                                <td>Số lượng</td>
-                                                <td>{detailShoes.quantity}</td>
+                                                <td className="align-middle">Số lượng</td>
+                                                <td className="align-middle">{detailShoes.quantity}</td>
                                             </tr>
                                         </tbody>
                                     </table>
